@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B59A14-935A-4DE8-B38D-D18ED9D9D663}|\u043B\u04315(\u0441\u0435\u043C2).csproj|c:\\users\\nikita\\desktop\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B59A14-935A-4DE8-B38D-D18ED9D9D663}|\u043B\u04315(\u0441\u0435\u043C2).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B59A14-935A-4DE8-B38D-D18ED9D9D663}|\u043B\u04315(\u0441\u0435\u043C2).csproj|c:\\users\\nikita\\desktop\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B59A14-935A-4DE8-B38D-D18ED9D9D663}|\u043B\u04315(\u0441\u0435\u043C2).csproj|solutionrelative:device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B59A14-935A-4DE8-B38D-D18ED9D9D663}|\u043B\u04315(\u0441\u0435\u043C2).csproj|c:\\users\\nikita\\desktop\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B59A14-935A-4DE8-B38D-D18ED9D9D663}|\u043B\u04315(\u0441\u0435\u043C2).csproj|solutionrelative:computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5B59A14-935A-4DE8-B38D-D18ED9D9D663}|\u043B\u04315(\u0441\u0435\u043C2).csproj|c:\\users\\nikita\\desktop\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5B59A14-935A-4DE8-B38D-D18ED9D9D663}|\u043B\u04315(\u0441\u0435\u043C2).csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:37:08.186Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Computer.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\Computer.cs",
+              "RelativeDocumentMoniker": "Computer.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\Computer.cs",
+              "RelativeToolTip": "Computer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:52:53.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\Device.cs",
+              "RelativeDocumentMoniker": "Device.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\Device.cs",
+              "RelativeToolTip": "Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:52:30.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04315(\u0441\u0435\u043C2)\\\u043B\u04315(\u0441\u0435\u043C2)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T08:29:46.131Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

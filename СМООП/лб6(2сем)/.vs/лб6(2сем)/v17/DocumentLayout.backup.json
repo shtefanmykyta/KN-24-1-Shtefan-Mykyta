@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04316(2\u0441\u0435\u043C)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7030524-ACCC-403A-96D6-C2B2251F8114}|\u043B\u04316(2\u0441\u0435\u043C).csproj|c:\\users\\nikita\\desktop\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(2\u0441\u0435\u043C)\\righttriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7030524-ACCC-403A-96D6-C2B2251F8114}|\u043B\u04316(2\u0441\u0435\u043C).csproj|solutionrelative:righttriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7030524-ACCC-403A-96D6-C2B2251F8114}|\u043B\u04316(2\u0441\u0435\u043C).csproj|c:\\users\\nikita\\desktop\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(2\u0441\u0435\u043C)\\pairofnumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7030524-ACCC-403A-96D6-C2B2251F8114}|\u043B\u04316(2\u0441\u0435\u043C).csproj|solutionrelative:pairofnumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7030524-ACCC-403A-96D6-C2B2251F8114}|\u043B\u04316(2\u0441\u0435\u043C).csproj|c:\\users\\nikita\\desktop\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(2\u0441\u0435\u043C)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7030524-ACCC-403A-96D6-C2B2251F8114}|\u043B\u04316(2\u0441\u0435\u043C).csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RightTriangle.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04316(2\u0441\u0435\u043C)\\RightTriangle.cs",
+              "RelativeDocumentMoniker": "RightTriangle.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04316(2\u0441\u0435\u043C)\\RightTriangle.cs",
+              "RelativeToolTip": "RightTriangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:01:42.265Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PairOfNumbers.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04316(2\u0441\u0435\u043C)\\PairOfNumbers.cs",
+              "RelativeDocumentMoniker": "PairOfNumbers.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04316(2\u0441\u0435\u043C)\\PairOfNumbers.cs",
+              "RelativeToolTip": "PairOfNumbers.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:46:18.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04316(2\u0441\u0435\u043C)\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Nikita\\Desktop\\\u0421\u041C\u041E\u041E\u041F\\\u043B\u04316(2\u0441\u0435\u043C)\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T11:04:51.332Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

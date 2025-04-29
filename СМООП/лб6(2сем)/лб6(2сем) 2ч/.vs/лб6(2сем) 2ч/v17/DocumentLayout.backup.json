@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F32FFC0A-9725-4B25-8A21-A9BBC8C5464D}|\u043B\u04316(2\u0441\u0435\u043C) 2\u0447.csproj|c:\\users\\nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\musicalinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32FFC0A-9725-4B25-8A21-A9BBC8C5464D}|\u043B\u04316(2\u0441\u0435\u043C) 2\u0447.csproj|solutionrelative:musicalinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32FFC0A-9725-4B25-8A21-A9BBC8C5464D}|\u043B\u04316(2\u0441\u0435\u043C) 2\u0447.csproj|c:\\users\\nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32FFC0A-9725-4B25-8A21-A9BBC8C5464D}|\u043B\u04316(2\u0441\u0435\u043C) 2\u0447.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32FFC0A-9725-4B25-8A21-A9BBC8C5464D}|\u043B\u04316(2\u0441\u0435\u043C) 2\u0447.csproj|c:\\users\\nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\sopilka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32FFC0A-9725-4B25-8A21-A9BBC8C5464D}|\u043B\u04316(2\u0441\u0435\u043C) 2\u0447.csproj|solutionrelative:sopilka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32FFC0A-9725-4B25-8A21-A9BBC8C5464D}|\u043B\u04316(2\u0441\u0435\u043C) 2\u0447.csproj|c:\\users\\nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\bandura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32FFC0A-9725-4B25-8A21-A9BBC8C5464D}|\u043B\u04316(2\u0441\u0435\u043C) 2\u0447.csproj|solutionrelative:bandura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32FFC0A-9725-4B25-8A21-A9BBC8C5464D}|\u043B\u04316(2\u0441\u0435\u043C) 2\u0447.csproj|c:\\users\\nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\stringinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32FFC0A-9725-4B25-8A21-A9BBC8C5464D}|\u043B\u04316(2\u0441\u0435\u043C) 2\u0447.csproj|solutionrelative:stringinstrument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MusicalInstrument.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\MusicalInstrument.cs",
+              "RelativeDocumentMoniker": "MusicalInstrument.cs",
+              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\MusicalInstrument.cs",
+              "RelativeToolTip": "MusicalInstrument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:43:46.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StringInstrument.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\StringInstrument.cs",
+              "RelativeDocumentMoniker": "StringInstrument.cs",
+              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\StringInstrument.cs",
+              "RelativeToolTip": "StringInstrument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:42:41.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bandura.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\Bandura.cs",
+              "RelativeDocumentMoniker": "Bandura.cs",
+              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\Bandura.cs",
+              "RelativeToolTip": "Bandura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:36:11.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sopilka.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\Sopilka.cs",
+              "RelativeDocumentMoniker": "Sopilka.cs",
+              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\Sopilka.cs",
+              "RelativeToolTip": "Sopilka.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:35:27.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Nikita\\source\\repos\\\u043B\u04316(2\u0441\u0435\u043C) 2\u0447\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:32:33.449Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
