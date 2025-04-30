@@ -48,7 +48,7 @@
     //        }
     //    }
     //Console.WriteLine("Результати виведені в файл Lab2.res");
-      //}
+    //}
     //}
 
     //class Program
