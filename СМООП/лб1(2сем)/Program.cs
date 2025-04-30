@@ -180,14 +180,13 @@
         {
             if (weight <= 500)
                 return 1;
-            else if (weight <= 1000)
+            if (weight <= 1000)
                 return 4;
-            else if (weight <= 1500)
+            if (weight <= 1500)
                 return 7;
-            else if (weight <= 2000)
+            if (weight <= 2000)
                 return 9;
-            else
-                return -1;
+            return -1;
         }
     }
 
