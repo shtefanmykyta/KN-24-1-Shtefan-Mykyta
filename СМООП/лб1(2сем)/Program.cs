@@ -34,19 +34,21 @@
     //        double xMin = -2.0;
     //        double xMax = 2.0;
     //        int numberOfValues = 8;
-
     //        double step = (xMax - xMin) / (numberOfValues - 1);
-
-    //        Console.WriteLine("Function value y = cos²(πx) - 2:");
+    //using (StreamWriter writer = new StreamWriter("Lab2.res"))
+    //{
+    //writer.WriteLine("Function value y = cos²(πx) - 2:");
 
     //        for (int i = 0; i < numberOfValues; i++)
     //        {
     //            double x = xMin + i * step;
     //            double y = Math.Pow(Math.Cos(Math.PI * x), 2) - 2;
 
-    //            Console.WriteLine($"x = {x:F2}, y = {y:F2}");
+    //            writer.WriteLine($"x = {x:F2}, y = {y:F2}");
     //        }
     //    }
+    //Console.WriteLine("Результати виведені в файл Lab2.res");
+    //}
     //}
 
     //class Program
@@ -178,14 +180,13 @@
         {
             if (weight <= 500)
                 return 1;
-            else if (weight <= 1000)
+            if (weight <= 1000)
                 return 4;
-            else if (weight <= 1500)
+            if (weight <= 1500)
                 return 7;
-            else if (weight <= 2000)
+            if (weight <= 2000)
                 return 9;
-            else
-                return -1;
+            return -1;
         }
     }
 
