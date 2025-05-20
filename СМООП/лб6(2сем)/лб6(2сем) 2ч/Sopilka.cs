@@ -10,11 +10,9 @@ namespace лб6_2сем__2ч
 public class Sopilka : MusicalInstrument
     {
         public Sopilka(int year) : base("Sopilka", year) { }
-
         public override string GetDescription()
         {
             return $"Sopilka: {Name}, Year: {Year}";
         }
     }
-
 }
