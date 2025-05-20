@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace лб6_2сем_
 {
-    using System;
-
     public class RightTriangle : PairOfNumbers
     {
         public RightTriangle(double cathetus1, double cathetus2) : base(cathetus1, cathetus2) { }
@@ -28,5 +26,4 @@ namespace лб6_2сем_
                    $"Hypotenuse = {Hypotenuse()}, Area = {Area()}";
         }
     }
-
 }
