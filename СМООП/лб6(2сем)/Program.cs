@@ -12,6 +12,7 @@
             new RightTriangle(3.0, 4.0),
             new RightTriangle(5.0, 12.0)
             };
+
             foreach (var pair in pairs)
             {
                 Console.WriteLine(pair.ToString());
