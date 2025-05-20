@@ -6,35 +6,28 @@ using System.Threading.Tasks;
 
 namespace лб6_2сем_
 {
-    using System;
-
     public class PairOfNumbers
     {
         protected double number1;
         protected double number2;
-
         public PairOfNumbers(double num1, double num2)
         {
             number1 = num1;
             number2 = num2;
         }
-
         public void SetNumbers(double num1, double num2)
         {
             number1 = num1;
             number2 = num2;
         }
-
         public double Product()
         {
             return number1 * number2;
         }
-
         public override string ToString()
         {
             return $"Pair: ({number1}, {number2})";
         }
-
         public override bool Equals(object obj)
         {
             if (obj is PairOfNumbers other)
@@ -43,11 +36,9 @@ namespace лб6_2сем_
             }
             return false;
         }
-
         public override int GetHashCode()
         {
             return HashCode.Combine(number1, number2);
         }
     }
-
 }
