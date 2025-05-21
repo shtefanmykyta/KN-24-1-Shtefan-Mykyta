@@ -7,11 +7,9 @@ using System.Xml.Linq;
 
 namespace лб6_2сем__2ч
 {
-
     public class StringInstrument : MusicalInstrument
     {
         public int NumberOfStrings { get; set; }
-
         public StringInstrument(string name, int year, int numberOfStrings) : base(name, year)
         {
             NumberOfStrings = numberOfStrings;
@@ -22,5 +20,4 @@ namespace лб6_2сем__2ч
             return $"String Instrument: {Name}, Year: {Year}, Strings: {NumberOfStrings}";
         }
     }
-
 }

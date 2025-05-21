@@ -19,7 +19,6 @@
                 Console.WriteLine($"Product: {pair.Product()}");
                 Console.WriteLine();
             }
-
             var firstPair = new PairOfNumbers(3.0, 4.0);
             var secondPair = new PairOfNumbers(3.0, 4.0);
             Console.WriteLine($"Are the two pairs equal? {firstPair.Equals(secondPair)}");
@@ -27,5 +26,4 @@
             Console.WriteLine($"Hash Code of second pair: {secondPair.GetHashCode()}");
         }
     }
-
 }

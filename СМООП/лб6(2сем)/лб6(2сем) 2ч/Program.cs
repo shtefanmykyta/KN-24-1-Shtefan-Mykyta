@@ -24,7 +24,6 @@
                 foreach (var instrument in instruments)
                 {
                     Console.WriteLine(instrument.GetDescription());
-
                     if (instrument is StringInstrument)
                     {
                         stringInstrumentCount++;
@@ -52,5 +51,4 @@
             }
         }
     }
-
 }
