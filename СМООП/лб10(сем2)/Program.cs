@@ -64,3 +64,165 @@ namespace лб10_сем2_
     }
 
 }
+
+ФІНАЛЬНЕ ЗАВДАННЯ
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using System.Text.Json;
+
+public class MusicDisk
+{
+    public string Title { get; set; }
+    public string Artist { get; set; }
+    public int ReleaseYear { get; set; }
+    public string Genre { get; set; }
+    public string TrackList { get; set; } 
+
+    public MusicDisk() { }
+
+    public MusicDisk(string title, string artist, int releaseYear, string genre, string trackList = "")
+    {
+        Title = title;
+        Artist = artist;
+        ReleaseYear = releaseYear;
+        Genre = genre;
+        TrackList = trackList;
+    }
+
+    public void AddTrack(string trackName)
+    {
+        if (!string.IsNullOrEmpty(TrackList))
+        {
+            TrackList += ";" + trackName;
+        }
+        else
+        {
+            TrackList = trackName;
+        }
+    }
+
+    public void RemoveTrack(string trackName)
+    {
+        if (!string.IsNullOrEmpty(TrackList))
+        {
+            string[] tracks = TrackList.Split(';');
+            string newTrackList = "";
+            bool isFirst = true;
+            foreach (string track in tracks)
+            {
+                if (track != trackName)
+                {
+                    if (!isFirst)
+                    {
+                        newTrackList += ";";
+                    }
+                    newTrackList += track;
+                    isFirst = false;
+                }
+            }
+            TrackList = newTrackList;
+        }
+    }
+
+    public override string ToString()
+    {
+        return $"Title: {Title}\n" +
+               $"Artist: {Artist}\n" +
+               $"Release Year: {ReleaseYear}\n" +
+               $"Genre: {Genre}\n" +
+               $"Track List: {TrackList}";
+    }
+
+    public static MusicDisk LoadFromFile(string filePath)
+    {
+        try
+        {
+            string jsonString = File.ReadAllText(filePath);
+            return JsonSerializer.Deserialize<MusicDisk>(jsonString);
+        }
+        catch (FileNotFoundException)
+        {
+            Console.WriteLine($"Error: File '{filePath}' not found.");
+            return null;
+        }
+        catch (JsonException)
+        {
+            Console.WriteLine($"Error: Failed to parse JSON from file '{filePath}'.");
+            return null;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while loading from file '{filePath}': {ex.Message}");
+            return null;
+        }
+    }
+
+    public void SaveToFile(string filePath)
+    {
+        try
+        {
+            string jsonString = JsonSerializer.Serialize(this, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(filePath, jsonString);
+            Console.WriteLine($"Music disk data successfully saved to file '{filePath}'.");
+        }
+        catch (IOException ex)
+        {
+            Console.WriteLine($"Error writing to file '{filePath}': {ex.Message}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred while saving to file '{filePath}': {ex.Message}");
+        }
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        string filePath = "C:\\Users\\7401\\Desktop\\my_disk.json";
+        MusicDisk myDisk = new MusicDisk(
+            "Fav Hits",
+            "Billie Eilish",
+            2023,
+            "Chill-out"
+        );
+
+        myDisk.AddTrack(" Birds of a feather");
+        myDisk.AddTrack(" The Greatest");
+        myDisk.AddTrack(" BLUE");
+
+        Console.WriteLine("Disk Information:");
+        Console.WriteLine(myDisk);
+
+        string filePathSave = "my_disk.json";
+        myDisk.SaveToFile(filePathSave);
+
+        MusicDisk loadedDisk = MusicDisk.LoadFromFile(filePathSave);
+        Console.ReadKey();
+        if (loadedDisk != null)
+        {
+            Console.WriteLine("\nLoaded Disk Information:");
+            Console.WriteLine(loadedDisk);
+
+            
+            if (loadedDisk is MusicDisk)
+            {
+                Console.WriteLine("\nLoaded object is an instance of the MusicDisk class.");
+            }
+            else
+            {
+                Console.WriteLine("\nLoaded object is not an instance of the MusicDisk class.");
+            }
+        }
+
+        MusicDisk nonExistentDisk = MusicDisk.LoadFromFile("nonexistent.json");
+        File.WriteAllText("faulty.json", "{'Title': 'Test', 'Artist': ' Performer'}");
+        MusicDisk faultyDisk = MusicDisk.LoadFromFile("faulty.json");
+    }
+}
