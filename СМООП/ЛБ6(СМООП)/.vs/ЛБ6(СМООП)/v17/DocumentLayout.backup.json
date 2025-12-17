@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|d:\\kn-24-1-shtefan-mykyta\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(\u0441\u043C\u043E\u043E\u043F)\\registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|solutionrelative:registerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|d:\\kn-24-1-shtefan-mykyta\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(\u0441\u043C\u043E\u043E\u043F)\\registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|solutionrelative:registerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|d:\\kn-24-1-shtefan-mykyta\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(\u0441\u043C\u043E\u043E\u043F)\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|solutionrelative:loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|d:\\kn-24-1-shtefan-mykyta\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(\u0441\u043C\u043E\u043E\u043F)\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|solutionrelative:loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|d:\\kn-24-1-shtefan-mykyta\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(\u0441\u043C\u043E\u043E\u043F)\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|d:\\kn-24-1-shtefan-mykyta\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(\u0441\u043C\u043E\u043E\u043F)\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|d:\\kn-24-1-shtefan-mykyta\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(\u0441\u043C\u043E\u043E\u043F)\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|d:\\kn-24-1-shtefan-mykyta\\\u0441\u043C\u043E\u043E\u043F\\\u043B\u04316(\u0441\u043C\u043E\u043E\u043F)\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C253F89-EFD5-4DD1-A062-A97C6D7AA7BB}|\u041B\u04116(\u0421\u041C\u041E\u041E\u041F).csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-17T01:39:27.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterWindow.xaml.cs",
+              "DocumentMoniker": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\RegisterWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RegisterWindow.xaml.cs",
+              "ToolTip": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\RegisterWindow.xaml.cs",
+              "RelativeToolTip": "RegisterWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T01:38:15.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterWindow.xaml",
+              "DocumentMoniker": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\RegisterWindow.xaml",
+              "RelativeDocumentMoniker": "RegisterWindow.xaml",
+              "ToolTip": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\RegisterWindow.xaml",
+              "RelativeToolTip": "RegisterWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-17T01:37:21.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LoginWindow.xaml.cs",
+              "ToolTip": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T01:36:32.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "LoginWindow.xaml",
+              "ToolTip": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\LoginWindow.xaml",
+              "RelativeToolTip": "LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-17T01:35:36.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T01:34:58.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-17T01:34:01.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\KN-24-1-Shtefan-Mykyta\\\u0421\u041C\u041E\u041E\u041F\\\u041B\u04116(\u0421\u041C\u041E\u041E\u041F)\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAAJsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T01:34:00.873Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

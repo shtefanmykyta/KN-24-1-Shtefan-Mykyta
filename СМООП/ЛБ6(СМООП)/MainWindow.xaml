@@ -1,0 +1,37 @@
+﻿<Window x:Class="Lab6.Game2048Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="2048" Height="500" Width="450"
+        WindowStartupLocation="CenterScreen"
+        KeyDown="Window_KeyDown"
+        Background="{StaticResource PrimaryBackground}">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок та очки -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" 
+                    HorizontalAlignment="Center" Margin="0,0,0,20">
+            <TextBlock Text="2048" FontSize="36" FontWeight="Bold" 
+                       Foreground="{StaticResource TextColor}"/>
+            <TextBlock x:Name="ScoreTextBlock" Text="Рахунок: 0" 
+                       FontSize="20" Margin="30,0,0,0"
+                       Foreground="{StaticResource AccentColor}"/>
+        </StackPanel>
+
+        <!-- Ігрове поле 4x4 -->
+        <UniformGrid x:Name="GameGrid" Grid.Row="1" Rows="4" Columns="4"
+                     Background="{StaticResource SecondaryBackground}"
+                     HorizontalAlignment="Center"/>
+
+        <!-- Кнопки управління -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" 
+                    HorizontalAlignment="Center" Margin="0,20,0,0">
+            <Button Content="Нова гра" Style="{StaticResource PrimaryButtonStyle}"
+                    Click="NewGameButton_Click" Width="100"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,92 @@
+﻿<Window x:Class="Lab4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ЛР №4. Панелі компоновки" Height="750" Width="650">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- ЗАДАНИЕ 1 -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,30">
+            <TextBlock Text="📋 ЗАВДАННЯ 1: Зміна тексту Label" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <Button x:Name="HelloButton" Content="Привіт" Width="100" Height="35" Margin="0,0,15,0" Click="HelloButton_Click"/>
+                <Button x:Name="ByeButton" Content="До побачення" Width="120" Height="35" Click="ByeButton_Click"/>
+            </StackPanel>
+            <Label x:Name="Task1Label" Content="Початок роботи" Background="LightBlue" Padding="10"/>
+        </StackPanel>
+
+        <!-- ЗАДАНИЕ 2 -->
+        <StackPanel Grid.Row="1" Margin="0,0,0,30">
+            <TextBlock Text="📋 ЗАВДАННЯ 2: TextBlock видимість" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <Button Content="Сховати" Width="80" Height="30" Margin="0,0,15,0" Click="HideTextBlock_Click"/>
+                <Button Content="Показати" Width="80" Height="30" Click="ShowTextBlock_Click"/>
+            </StackPanel>
+            <TextBlock x:Name="Task2TextBlock" Text="Цей текст можна сховати/показати" Background="LightGreen" Padding="10"/>
+        </StackPanel>
+
+        <!-- ЗАДАНИЕ 3 -->
+        <StackPanel Grid.Row="3" Margin="0,0,0,30">
+            <TextBlock Text="📋 ЗАВДАННЯ 3: TextBox керування" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+            <TextBox x:Name="Task3TextBox" Text="Введіть текст сюди..." Height="35" Margin="0,0,0,15"/>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Сховати" Width="80" Height="30" Margin="0,5,5,0" Click="HideTextBox_Click"/>
+                <Button Content="Показати" Width="80" Height="30" Margin="0,5,5,0" Click="ShowTextBox_Click"/>
+                <Button Content="Очистити" Width="80" Height="30" Margin="0,5,0,0" Click="ClearTextBox_Click"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- ЗАДАНИЕ 4: ИГРА -->
+        <StackPanel Grid.Row="4" Margin="0,0,0,30">
+            <TextBlock Text="🎮 ЗАВДАННЯ 4: Гра (1→2→3→4→5)" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+            <WrapPanel Margin="0,0,0,15">
+                <Button x:Name="GameBtn1" Content="1" Width="70" Height="45" Margin="5" Background="LightCoral" Click="GameButton_Click"/>
+                <Button x:Name="GameBtn2" Content="2" Width="70" Height="45" Margin="5" Background="LightSalmon" Click="GameButton_Click"/>
+                <Button x:Name="GameBtn3" Content="3" Width="70" Height="45" Margin="5" Background="LightYellow" Click="GameButton_Click"/>
+                <Button x:Name="GameBtn4" Content="4" Width="70" Height="45" Margin="5" Background="LightSkyBlue" Click="GameButton_Click"/>
+                <Button x:Name="GameBtn5" Content="5" Width="70" Height="45" Margin="5" Background="LightGray" Click="GameButton_Click"/>
+            </WrapPanel>
+            <TextBlock x:Name="GameStatus" Text="Натисніть 1 для початку!" HorizontalAlignment="Center" Background="AliceBlue" Padding="10"/>
+        </StackPanel>
+
+        <!-- ЗАДАНИЕ 5: ФУНТЫ-КГ -->
+        <StackPanel Grid.Row="6" Margin="0,0,0,30">
+            <TextBlock Text="⚖️ ЗАВДАННЯ 5: Фунти → Кілограми" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <Label Content="Фунти:" Width="70"/>
+                <TextBox x:Name="PoundsTextBox" Width="100" Height="35" Margin="10,0"/>
+                <Label Content="Кілограми:" Width="80"/>
+                <TextBox x:Name="KgTextBox" Width="100" Height="35" IsReadOnly="True"/>
+            </StackPanel>
+            <Button Content="Перетворити" Width="120" Height="35" Click="ConvertButton_Click"/>
+        </StackPanel>
+
+        <!-- ЗАДАНИЕ 6: 2/3 ширины -->
+        <Grid Grid.Row="7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <TextBlock Text="🎨 ЗАВДАННЯ 6: Кнопки 2/3 ширини" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+                <WrapPanel>
+                    <Button Content="Червона" Width="90" Height="40" Margin="3" Background="Red" Foreground="White" Click="ColorButton_Click"/>
+                    <Button Content="Зелена" Width="90" Height="40" Margin="3" Background="Green" Foreground="White" Click="ColorButton_Click"/>
+                    <Button Content="Синя" Width="90" Height="40" Margin="3" Background="Blue" Foreground="White" Click="ColorButton_Click"/>
+                </WrapPanel>
+            </StackPanel>
+            <Rectangle Grid.Column="1" Fill="LightGray" Margin="10"/>
+        </Grid>
+    </Grid>
+</Window>

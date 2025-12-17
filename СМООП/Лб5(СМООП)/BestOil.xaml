@@ -1,0 +1,106 @@
+﻿<Window x:Class="Lab5.BestOilWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BestOil - АЗС" Height="600" Width="500" 
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Grid.Row="0" Text="BEST OIL" FontSize="24" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <!-- Блок топлива -->
+        <GroupBox Grid.Row="1" Header="Паливо" Margin="0,0,0,10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+                    <Label Content="Тип палива:" Width="80"/>
+                    <ComboBox x:Name="FuelComboBox" Width="120" 
+                              SelectionChanged="FuelComboBox_SelectionChanged"/>
+                    <TextBlock x:Name="FuelPriceTextBlock" 
+                               Text="55.00 грн/л" Margin="10,0,0,0" VerticalAlignment="Center"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
+                    <RadioButton x:Name="RadioLiters" Content="Літри" 
+                                 Width="60" IsChecked="True" 
+                                 Checked="RadioLiters_Checked"/>
+                    <TextBox x:Name="LitersTextBox" Width="80" Margin="10,0,0,0" 
+                             Text="0" VerticalContentAlignment="Center"/>
+                    <RadioButton x:Name="RadioMoney" Content="Гривні" 
+                                 Width="70" Margin="10,0,0,0"
+                                 Checked="RadioMoney_Checked"/>
+                    <TextBox x:Name="MoneyTextBox" Width="80" Margin="5,0,0,0" 
+                             Text="0" VerticalContentAlignment="Center" IsEnabled="False"/>
+                </StackPanel>
+
+                <TextBlock Grid.Row="2" Text="До оплати:" Margin="0,0,0,5"/>
+                <TextBlock x:Name="FuelResultTextBox" Grid.Row="3" 
+                           Text="0.00 грн" FontSize="16" FontWeight="Bold"/>
+            </Grid>
+        </GroupBox>
+
+        <!-- Блок кафе -->
+        <GroupBox Grid.Row="2" Header="Міні-кафе" Margin="0,0,0,10">
+            <StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <CheckBox x:Name="HotDogCheckBox" Content="Гарячі собаки"/>
+                    <TextBox x:Name="HotDogPriceTextBox" Width="60" Margin="10,0" 
+                             Text="25.00" IsReadOnly="True"/>
+                    <TextBox x:Name="HotDogQtyTextBox" Width="40" Text="0"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <CheckBox x:Name="CoffeeCheckBox" Content="Кава"/>
+                    <TextBox x:Name="CoffeePriceTextBox" Width="60" Margin="10,0" 
+                             Text="20.00" IsReadOnly="True"/>
+                    <TextBox x:Name="CoffeeQtyTextBox" Width="40" Text="0"/>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <CheckBox x:Name="SandwichCheckBox" Content="Сендвіч"/>
+                    <TextBox x:Name="SandwichPriceTextBox" Width="60" Margin="10,0" 
+                             Text="35.00" IsReadOnly="True"/>
+                    <TextBox x:Name="SandwichQtyTextBox" Width="40" Text="0"/>
+                </StackPanel>
+
+                <TextBlock x:Name="CafeSumTextBox" Text="0.00 грн" 
+                           Margin="0,10,0,0" FontWeight="Bold"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Итоги -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <StackPanel>
+                <TextBlock x:Name="FuelSumTextBox" Text="0.00 грн" FontWeight="Bold"/>
+                <TextBlock Text="Паливо"/>
+            </StackPanel>
+            <TextBlock Text=" + " FontSize="18" Margin="20,0" VerticalAlignment="Center"/>
+            <StackPanel>
+                <TextBlock x:Name="TotalSumTextBox" Text="0.00 грн" FontSize="18" FontWeight="Bold"/>
+                <TextBlock Text="Разом"/>
+            </StackPanel>
+            <Button x:Name="CalculateButton" Content="Розрахувати" Width="100" Height="40" 
+                    Margin="20,0,0,0" Click="CalculateButton_Click"/>
+            <Button x:Name="NewClientButton" Content="Новий клієнт" Width="100" Height="40" 
+                    Click="NewClientButton_Click"/>
+        </StackPanel>
+
+        <TextBlock x:Name="DayTotalTextBlock" Grid.Row="3" 
+                   HorizontalAlignment="Right" Margin="0,20,0,0"
+                   Text="Виручка за день: 0.00 грн" FontWeight="Bold"/>
+    </Grid>
+</Window>
